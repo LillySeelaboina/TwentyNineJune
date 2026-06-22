@@ -151,7 +151,7 @@ function createHeart(){
 
     heart.className="heart";
 
-    const hearts = ["✨", "⭐", "🌟", "🎉", "🎊"];
+    const hearts = ["✨", "✨", "✨", "✨", "✨"];
 
     heart.innerHTML=
         hearts[Math.floor(Math.random()*hearts.length)];
